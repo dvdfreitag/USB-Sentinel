@@ -9,6 +9,10 @@
 *.fsproj merge=union
 *.dbproj merge=union
 
+# Custyom for Atmel Studio
+*.atsln    merge=union
+*.cproj merge=union
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
