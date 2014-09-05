@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -156,116 +156,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="3.81" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="2.54" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="USB-A-S-NOSILK-FEMALE">
-<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="51"/>
-<pad name="S1" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="S2" x="0" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="4.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="4.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="4.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="4.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="8.46" y="-7.205" size="1.27" layer="51" rot="R180">&gt;NAME</text>
-</package>
-<package name="USB-MINIB_PTH">
-<description>MF P/N: 0548190519</description>
-<pad name="GND" x="0.6" y="-1.6" drill="0.7" diameter="1.1" shape="offset"/>
-<pad name="D+" x="0.6" y="0" drill="0.7" diameter="1.1" shape="offset"/>
-<pad name="VBUS" x="0.6" y="1.6" drill="0.7" diameter="1.1" shape="offset"/>
-<pad name="ID" x="-0.6" y="-0.8" drill="0.7" diameter="1.1" shape="offset" rot="R180"/>
-<pad name="D-" x="-0.6" y="0.8" drill="0.7" diameter="1.1" shape="offset" rot="R180"/>
-<pad name="P$6" x="-4.45" y="-3.65" drill="1.9"/>
-<pad name="P$7" x="-4.45" y="3.65" drill="1.9"/>
-<rectangle x1="-1.2" y1="-4.4" x2="1.3" y2="-3" layer="39"/>
-<rectangle x1="-1.2" y1="3" x2="1.3" y2="4.4" layer="39"/>
-<rectangle x1="-7.4" y1="-3.1" x2="-6.2" y2="3.1" layer="39"/>
-<rectangle x1="-7.4" y1="-3.1" x2="-6.2" y2="3.1" layer="41"/>
-<rectangle x1="-1.2" y1="3" x2="1.3" y2="4.4" layer="41"/>
-<rectangle x1="-1.2" y1="-4.4" x2="1.3" y2="-3" layer="41"/>
-<wire x1="0.7" y1="-2.5" x2="0.7" y2="-3.65" width="0.1524" layer="21"/>
-<wire x1="-8.3" y1="3.65" x2="-8.3" y2="-3.65" width="0.1524" layer="21"/>
-<wire x1="-8.3" y1="-3.65" x2="-6.2" y2="-3.65" width="0.1524" layer="21"/>
-<wire x1="0.7" y1="-3.65" x2="-2.7" y2="-3.65" width="0.1524" layer="21"/>
-<wire x1="0.7" y1="2.5" x2="0.7" y2="3.65" width="0.1524" layer="21"/>
-<wire x1="0.7" y1="3.65" x2="-2.7" y2="3.65" width="0.1524" layer="21"/>
-<wire x1="-8.3" y1="3.65" x2="-6.2" y2="3.65" width="0.1524" layer="21"/>
-<text x="-3" y="-5.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
-</package>
-<package name="USB-A-H">
-<description>&lt;b&gt;USB Series A Hole Mounted&lt;/b&gt;</description>
-<wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="6" x2="-17.8" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="21"/>
-<wire x1="1" y1="-4" x2="1" y2="4" width="0.2032" layer="21"/>
-<wire x1="-13.5" y1="4.3" x2="-13.5" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="1.9" x2="-11.2" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="1.9" x2="-11.2" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="4.3" x2="-13.5" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-1.9" x2="-13.5" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-4.3" x2="-11.2" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-4.3" x2="-11.2" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-1.9" x2="-13.5" y2="-1.9" width="0.2032" layer="51"/>
-<pad name="GND" x="2.4" y="3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D+" x="2.4" y="1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D-" x="2.4" y="-1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="VBUS" x="2.4" y="-3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="GND2" x="0" y="-5.8" drill="2.2" rot="R270"/>
-<pad name="GND3" x="0" y="5.8" drill="2.2" rot="R270"/>
-<text x="5.85" y="-2.7" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.9" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
-<hole x="-0.1" y="2.25" drill="1.1"/>
-<hole x="-0.1" y="-2.25" drill="1.1"/>
-</package>
-<package name="USB-A-R">
-<wire x1="-8.95" y1="6.25" x2="-8.95" y2="-6.25" width="0.2032" layer="51"/>
-<wire x1="-7.95" y1="6.25" x2="-7.95" y2="-6.25" width="0.2032" layer="21"/>
-<wire x1="-7.95" y1="6.25" x2="-8.95" y2="6.25" width="0.2032" layer="51"/>
-<wire x1="-7.95" y1="-6.25" x2="-8.95" y2="-6.25" width="0.2032" layer="51"/>
-<wire x1="-7.95" y1="6.25" x2="-2" y2="6.25" width="0.2032" layer="21"/>
-<wire x1="-7.95" y1="-6.25" x2="-2" y2="-6.25" width="0.2032" layer="21"/>
-<wire x1="1.31" y1="-4" x2="1.31" y2="4" width="0.2032" layer="21"/>
-<wire x1="-2.7" y1="4.3" x2="-7.72348125" y2="3.82136875" width="0.2032" layer="51"/>
-<wire x1="-7.72348125" y1="3.82136875" x2="-7.95" y2="3.572475" width="0.2032" layer="51" curve="84.609229"/>
-<wire x1="-7.95" y1="3.572475" x2="-7.95" y2="2.63203125" width="0.2032" layer="51"/>
-<wire x1="-7.95" y1="2.63203125" x2="-7.718996875" y2="2.37820625" width="0.2032" layer="51" curve="84.610438"/>
-<wire x1="-7.718996875" y1="2.37820625" x2="-2.7" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.7" y1="1.9" x2="-2.7" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-2.7" y1="-1.9" x2="-7.7237125" y2="-2.37865625" width="0.2032" layer="51"/>
-<wire x1="-7.7237125" y1="-2.37865625" x2="-7.95" y2="-2.627528125" width="0.2032" layer="51" curve="84.556643"/>
-<wire x1="-7.95" y1="-2.627528125" x2="-7.95" y2="-3.55494375" width="0.2032" layer="51"/>
-<wire x1="-7.95" y1="-3.55494375" x2="-7.706221875" y2="-3.82305" width="0.2032" layer="51" curve="84.557588"/>
-<wire x1="-7.706221875" y1="-3.82305" x2="-2.7" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-2.7" y1="-4.3" x2="-2.7" y2="-1.9" width="0.2032" layer="51"/>
-<pad name="GND" x="2.71" y="3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D+" x="2.71" y="1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D-" x="2.71" y="-1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="VBUS" x="2.71" y="-3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="GND2" x="0" y="-5.8" drill="2.3" rot="R270"/>
-<pad name="GND3" x="0" y="5.8" drill="2.3" rot="R270"/>
-<text x="-1" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<wire x1="-9.65" y1="6.25" x2="-9.65" y2="5.85" width="0.2032" layer="51"/>
-<wire x1="-9.65" y1="-5.85" x2="-9.65" y2="-6.25" width="0.2032" layer="51"/>
-<wire x1="-9.65" y1="6.25" x2="-8.95" y2="6.25" width="0.2032" layer="51"/>
-<wire x1="-8.95" y1="-6.25" x2="-9.65" y2="-6.25" width="0.2032" layer="51"/>
-<wire x1="-9.65" y1="6.25" x2="-10.25" y2="6.85" width="0.2032" layer="51"/>
-<wire x1="-9.65" y1="-6.25" x2="-10.25" y2="-6.85" width="0.2032" layer="51"/>
-<wire x1="-9.65" y1="5.85" x2="-10.05" y2="5.85" width="0.2032" layer="51"/>
-<wire x1="-10.3" y1="5.65" x2="-10.3" y2="-5.6" width="0.2032" layer="51"/>
-<wire x1="-10.1" y1="-5.85" x2="-9.65" y2="-5.85" width="0.2032" layer="51"/>
-<wire x1="-10.05" y1="5.85" x2="-10.3" y2="5.65" width="0.2032" layer="51" curve="84.547378"/>
-<wire x1="-10.3" y1="-5.6" x2="-10.1" y2="-5.85" width="0.2032" layer="51" curve="84.547378"/>
-</package>
 <package name="USB-MICROB">
 <description>Micro USB Package</description>
 <wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
@@ -322,10 +212,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
 <pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
 <smd name="D-" x="3.45" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="3.45" y="3" dx="3" dy="0.9" layer="1"/>
+<smd name="VBUS" x="3.45" y="3.225" dx="3" dy="1.35" layer="1"/>
 <smd name="D+" x="3.45" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="3.45" y="-3" dx="3" dy="0.9" layer="1"/>
-<text x="5.715" y="3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="GND" x="3.45" y="-3.225" dx="3" dy="1.35" layer="1"/>
+<text x="2.54" y="6.985" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="2X3-SHROUDED">
 <wire x1="-2.775" y1="3.175" x2="-2.775" y2="1.905" width="0.2032" layer="21"/>
@@ -530,17 +420,61 @@ Keying posts into board</description>
 <text x="-3.502" y="-0.408" size="0.4064" layer="27">&gt;Value</text>
 </package>
 <package name="M03X2-50MIL">
-<pad name="3" x="0" y="-0.635" drill="0.508" diameter="0.9144"/>
-<pad name="5" x="1.27" y="-0.635" drill="0.508" diameter="0.9144"/>
-<pad name="6" x="1.27" y="0.635" drill="0.508" diameter="0.9144"/>
-<pad name="4" x="0" y="0.635" drill="0.508" diameter="0.9144"/>
-<pad name="2" x="-1.27" y="0.635" drill="0.508" diameter="0.9144"/>
-<pad name="1" x="-1.27" y="-0.635" drill="0.508" diameter="0.9144" shape="square"/>
-<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<pad name="3" x="0" y="-0.635" drill="0.65" diameter="0.9144"/>
+<pad name="5" x="1.27" y="-0.635" drill="0.65" diameter="0.9144"/>
+<pad name="6" x="1.27" y="0.635" drill="0.65" diameter="0.9144"/>
+<pad name="4" x="0" y="0.635" drill="0.65" diameter="0.9144"/>
+<pad name="2" x="-1.27" y="0.635" drill="0.65" diameter="0.9144"/>
+<pad name="1" x="-1.27" y="-0.635" drill="0.65" diameter="0.9144" shape="square"/>
+<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
 <text x="-1.778" y="1.524" size="0.8128" layer="21">&gt;NAME</text>
+</package>
+<package name="USB-B-PTH-VERTICAL">
+<description>&lt;b&gt;USB Series B Hole Mounted&lt;/b&gt;</description>
+<wire x1="0" y1="0" x2="11.938" y2="0" width="0.254" layer="21"/>
+<wire x1="11.938" y1="0" x2="11.938" y2="11.303" width="0.254" layer="21"/>
+<wire x1="11.938" y1="11.303" x2="0" y2="11.303" width="0.254" layer="21"/>
+<wire x1="0" y1="11.303" x2="0" y2="0" width="0.254" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="10.795" y2="1.27" width="0.254" layer="51"/>
+<wire x1="10.795" y1="1.27" x2="10.795" y2="8.255" width="0.254" layer="51"/>
+<wire x1="10.795" y1="8.255" x2="8.89" y2="10.16" width="0.254" layer="51"/>
+<wire x1="8.89" y1="10.16" x2="3.175" y2="10.16" width="0.254" layer="51"/>
+<wire x1="3.175" y1="10.16" x2="1.27" y2="8.255" width="0.254" layer="51"/>
+<wire x1="1.27" y1="8.255" x2="1.27" y2="1.27" width="0.254" layer="51"/>
+<pad name="GND" x="7.3152" y="4.3942" drill="0.9144" diameter="1.6764" rot="R90"/>
+<pad name="VBUS" x="7.3152" y="7.5946" drill="0.9144" diameter="1.6764" rot="R90"/>
+<pad name="D-" x="4.826" y="7.5946" drill="0.9144" diameter="1.6764" rot="R270"/>
+<pad name="D+" x="4.826" y="4.3942" drill="0.9144" diameter="1.6764" rot="R270"/>
+<pad name="P$1" x="0" y="4.9022" drill="2.286"/>
+<pad name="P$2" x="12.0396" y="4.9022" drill="2.286"/>
+<text x="8.89" y="-1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="USB-MINIB">
+<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
+<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
+<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="MTN3" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN1" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN2" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
+<hole x="0" y="2.2" drill="0.9"/>
+<hole x="0" y="-2.2" drill="0.9"/>
 </package>
 </packages>
 <symbols>
@@ -548,13 +482,14 @@ Keying posts into board</description>
 <wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
 <wire x1="0" y1="10.16" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<text x="5.08" y="0.635" size="2.54" layer="94" rot="R90">USB</text>
+<text x="3.81" y="0.635" size="2.54" layer="94" rot="R90">USB</text>
 <pin name="D+" x="-2.54" y="5.08" visible="pad" length="short"/>
 <pin name="D-" x="-2.54" y="2.54" visible="pad" length="short"/>
 <pin name="VBUS" x="-2.54" y="7.62" visible="pad" length="short"/>
 <pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
-<pin name="S1" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="S2" x="5.08" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="P$1" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="5.08" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="0.635" y="-1.905" size="1.778" layer="94">SHLD</text>
 </symbol>
 <symbol name="M03X2">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
@@ -608,60 +543,34 @@ USB connector with shield pins connectable</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="P$1" pad="S1"/>
+<connect gate="G$1" pin="P$2" pad="S2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="USB-A-S-NOSILK-FEMALE" package="USB-A-S-NOSILK-FEMALE">
+<device name="-VERTICAL" package="USB-B-PTH-VERTICAL">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINIB_PTH" package="USB-MINIB_PTH">
+<device name="MINIB" package="USB-MINIB">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="P$6"/>
-<connect gate="G$1" pin="S2" pad="P$7"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="GND2"/>
-<connect gate="G$1" pin="S2" pad="GND3"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-R" package="USB-A-R">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="GND2"/>
-<connect gate="G$1" pin="S2" pad="GND3"/>
+<connect gate="G$1" pin="P$1" pad="MTN1 MTN2"/>
+<connect gate="G$1" pin="P$2" pad="MTN3 MTN4"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -673,8 +582,8 @@ USB connector with shield pins connectable</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="MT1 P$1"/>
-<connect gate="G$1" pin="S2" pad="MT2 P$2"/>
+<connect gate="G$1" pin="P$1" pad="MT1 P$1"/>
+<connect gate="G$1" pin="P$2" pad="MT2 P$2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -686,8 +595,8 @@ USB connector with shield pins connectable</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="S1" pad="P$5"/>
-<connect gate="G$1" pin="S2" pad="P$6"/>
+<connect gate="G$1" pin="P$1" pad="P$5"/>
+<connect gate="G$1" pin="P$2" pad="P$6"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -5481,10 +5390,10 @@ Source: TOP MAGNETICS CORPORATION .. tfi.pdf</description>
 <junction x="35.56" y="22.86"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="S2"/>
+<pinref part="J1" gate="G$1" pin="P$2"/>
 <pinref part="GND5" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="17.78" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="S1"/>
+<pinref part="J1" gate="G$1" pin="P$1"/>
 <wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="15.24" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
@@ -5518,10 +5427,10 @@ Source: TOP MAGNETICS CORPORATION .. tfi.pdf</description>
 <wire x1="80.01" y1="15.24" x2="80.01" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="S2"/>
+<pinref part="J2" gate="G$1" pin="P$2"/>
 <pinref part="GND11" gate="G$1" pin="GND"/>
 <wire x1="69.85" y1="10.16" x2="69.85" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="S1"/>
+<pinref part="J2" gate="G$1" pin="P$1"/>
 <wire x1="69.85" y1="7.62" x2="69.85" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="69.85" y1="7.62" x2="72.39" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="7.62" x2="72.39" y2="10.16" width="0.1524" layer="91"/>
