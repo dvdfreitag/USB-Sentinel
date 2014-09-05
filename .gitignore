@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -35,3 +36,19 @@ Icon
 .Spotlight-V100
 .Trashes
 
+##########################
+## Atmel Studio 6
+##########################
+
+*.d
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.o
+*.srec
+*.mk
+*.S
+Makefile
+TcfTransactionLog.csv
