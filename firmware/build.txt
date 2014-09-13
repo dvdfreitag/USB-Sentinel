@@ -1,3 +1,0 @@
-make PID=0x9203 MCU=atmega32u2 F_CPU=8000000
-copy Caterina.hex Caterina-USB-Sentinel.hex
-make clean
